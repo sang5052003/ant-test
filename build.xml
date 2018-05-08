@@ -57,7 +57,6 @@
 	<target name="war" depends="test">
              <war destfile="${ant.project.name}.war" webxml="web/WEB-INF/web.xml">
                     <lib dir="web/WEB-INF/lib" />
-                    <classes dir="build/classes" />
                     <fileset dir="web" />
              </war>
        </target>
