@@ -53,6 +53,14 @@
 		</junit>
 		
 	</target>
+	
+	<target name="all">
+	    <war-builder projectfolder="."
+			 destinationfolder="bin/war"
+			 warfile="bin/project.war"
+			 classesFolder="classes-folder"/>
+	</target>
+	
 	<!-- 
 	<property name="doc.dir" location="doc"></property>
 	<property name="index.dir" location="index"></property>
