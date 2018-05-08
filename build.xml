@@ -54,7 +54,7 @@
 		
 	</target>
 	
-	<target name="all">
+	<target name="all" depends="test">
 	    <war-builder projectfolder="."
 			 destinationfolder="bin/war"
 			 warfile="bin/project.war"
